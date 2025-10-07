@@ -14,7 +14,7 @@ import {
 import clsx from 'clsx'
 
 import { Container } from '@/components/Container'
-import avatarImage from '@/images/avatar.jpg'
+import avatarImage from '@/images/avatar.png'
 
 function CloseIcon(props: React.ComponentPropsWithoutRef<'svg'>) {
   return (
@@ -116,16 +116,16 @@ function MobileNavigation(
             <CloseIcon className="h-6 w-6 text-zinc-500 dark:text-zinc-400" />
           </PopoverButton>
           <h2 className="text-sm font-medium text-zinc-600 dark:text-zinc-400">
-            Navigation
+            Navegação
           </h2>
         </div>
         <nav className="mt-6">
           <ul className="-my-2 divide-y divide-zinc-100 text-base text-zinc-800 dark:divide-zinc-100/5 dark:text-zinc-300">
-            <MobileNavItem href="/about">About</MobileNavItem>
-            <MobileNavItem href="/articles">Articles</MobileNavItem>
-            <MobileNavItem href="/projects">Projects</MobileNavItem>
-            <MobileNavItem href="/speaking">Speaking</MobileNavItem>
-            <MobileNavItem href="/uses">Uses</MobileNavItem>
+            <MobileNavItem href="/about">Sobre mim</MobileNavItem>
+            <MobileNavItem href="/articles">Artigos</MobileNavItem>
+            <MobileNavItem href="/projects">Projetos</MobileNavItem>
+            {/* <MobileNavItem href="/speaking">Palestras</MobileNavItem> */}
+            {/* <MobileNavItem href="/uses">Usos</MobileNavItem> */}
           </ul>
         </nav>
       </PopoverPanel>
@@ -166,11 +166,11 @@ function DesktopNavigation(props: React.ComponentPropsWithoutRef<'nav'>) {
   return (
     <nav {...props}>
       <ul className="flex rounded-full bg-white/90 px-3 text-sm font-medium text-zinc-800 shadow-lg ring-1 shadow-zinc-800/5 ring-zinc-900/5 backdrop-blur-sm dark:bg-zinc-800/90 dark:text-zinc-200 dark:ring-white/10">
-        <NavItem href="/about">About</NavItem>
-        <NavItem href="/articles">Articles</NavItem>
-        <NavItem href="/projects">Projects</NavItem>
-        <NavItem href="/speaking">Speaking</NavItem>
-        <NavItem href="/uses">Uses</NavItem>
+        <NavItem href="/about">Sobre mim</NavItem>
+        <NavItem href="/articles">Artigos</NavItem>
+        <NavItem href="/projects">Projetos</NavItem>
+        {/* <NavItem href="/speaking">Palestras</NavItem> */}
+        {/* <NavItem href="/uses">Usos</NavItem> */}
       </ul>
     </nav>
   )
