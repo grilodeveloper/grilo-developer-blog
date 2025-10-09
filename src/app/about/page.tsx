@@ -50,7 +50,7 @@ function MailIcon(props: React.ComponentPropsWithoutRef<'svg'>) {
 export const metadata: Metadata = {
   title: 'Sobre mim',
   description:
-    'Sou o Jhonnyssom Silva, mais conhecido como Grilo. Desenvolvedor Frontend, esposo, pai e entusiasta de ciclismo e corrida.',
+    'Sou o Jhonnyssom Silva, mais conhecido como Grilo. Programador Frontend, esposo, pai e entusiasta de ciclismo e corrida.',
 }
 
 export default function About() {
@@ -69,49 +69,48 @@ export default function About() {
         </div>
         <div className="lg:order-first lg:row-span-2">
           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl dark:text-zinc-100">
-            Olá! Eu sou o Jhonnyssom Silva, mais conhecido como Grilo. Sou um
-            desenvolvedor Frontend, esposo, pai e apaixonado por ciclismo e
-            corrida.
+            Hello! I&apos;m Jhonnyssom Silva, also known as Grilo. I&apos;m a
+            Frontend developer, husband, father, and passionate about cycling
+            and running.
           </h1>
           <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
             <p>
-              Comecei a programar em 2024 — bem recente eu sei. Antes disso,
-              trabalhei na área de TI por 10 anos mais ou menos, atuando com
-              suporte ao usuário, infraestrutura, redes e segurança da
-              informação. Em 2023, decidi que era hora de mudar e comecei a
-              estudar desenvolvimento web. Hoje sou desenvolvedor Frontend, com
-              foco em React, Next.js, Tailwind CSS e todo o ecossistema que
-              envolve o desenvolvimento web.
+              I started programming in 2024 — pretty recent, I know. Before
+              that, I worked in IT for about 10 years, focusing on user support,
+              infrastructure, networking, and information security. In 2023, I
+              decided it was time for a change and began studying web
+              development. Today, I’m a Frontend Developer focused on React,
+              Next.js, Tailwind, and the whole ecosystem that makes modern web
+              development so exciting.
             </p>
             <p>
-              Tive minha primeira oportunidade como desenvolvedor na Nivello
-              Tecnologia, empresa onde atuo atualmente como parte do time do
-              Ybera Group. Estagiei por 12 meses e, após esse período, fui
-              efetivado. Hoje trabalho como desenvolvedor Frontend, criando
-              interfaces modernas e performáticas, sempre buscando aprimorar
-              minhas habilidades como programador.
+              I got my first opportunity as a developer at Nivello Tecnologia,
+              the company where I currently work as part of the Ybera Group
+              team. I started as an intern for 12 months, and after that period,
+              I was hired full-time. Now I work as a Frontend Developer,
+              creating modern, high-performance interfaces and constantly
+              striving to improve my skills as a programmer.
             </p>
             <p>
-              Fora da tecnologia, sou casado com a Bruna, minha esposa há 10
-              anos, minha companheira de vida. Juntos, temos uma filha chamada
-              Mariana de 5 anos, que é a nossa maior alegria. Mariana é uma
-              criança muito inteligente e curiosa, e está sempre aprendendo
-              coisas novas. Ser pai é uma experiência incrível, e me sinto muito
-              grato por poder acompanhar o crescimento dela de perto.
+              Outside of tech, I’m married to Bruna, my wife and life partner
+              for over 10 years. Together, we have a 5-year-old daughter named
+              Mariana, our greatest joy. She’s a bright and curious child who’s
+              always learning new things. Being a father is an incredible
+              experience, and I’m deeply grateful to be part of her growth every
+              day.
             </p>
             <p>
-              Também sou apaixonado por esportes, especialmente ciclismo e
-              corrida de rua. Sempre que posso, estou pedalando ou correndo por
-              aí, explorando meus limites e me desafiando a ser melhor a cada
-              dia.
+              I’m also passionate about sports — especially cycling and running.
+              Whenever I can, I’m out riding or running, pushing my limits and
+              challenging myself to get better every day. dia.
             </p>
             <p>
-              Este blog é um espaço onde compartilho minhas experiências como
-              desenvolvedor, dicas de programação, projetos pessoais e reflexões
-              sobre a vida. Espero que você goste do conteúdo e se sinta à
-              vontade para interagir e comentar.
+              This blog is a space where I share my experiences as a developer,
+              coding tips, personal projects, and reflections on life. I hope
+              you enjoy the content and feel free to interact and leave a
+              comment.
             </p>
-            <p>Obrigado por visitar meu blog! Vamos juntos nessa jornada.</p>
+            <p>Thanks for visiting my blog — let’s keep growing together!</p>
           </div>
         </div>
         <div className="lg:pl-20">

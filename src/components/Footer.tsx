@@ -27,15 +27,15 @@ export function Footer() {
           <ContainerInner>
             <div className="flex flex-col items-center justify-between gap-6 md:flex-row">
               <div className="flex flex-wrap justify-center gap-x-6 gap-y-1 text-sm font-medium text-zinc-800 dark:text-zinc-200">
-                <NavLink href="/about">Sobre mim</NavLink>
-                <NavLink href="/articles">Artigos</NavLink>
-                <NavLink href="/projects">Projetos</NavLink>
+                <NavLink href="/about">About</NavLink>
+                <NavLink href="/articles">Article</NavLink>
+                <NavLink href="/projects">Projects</NavLink>
                 {/* <NavLink href="/speaking">Palestras</NavLink> */}
                 {/* <NavLink href="/uses">Usos</NavLink> */}
               </div>
               <p className="text-sm text-zinc-400 dark:text-zinc-500">
-                &copy; {new Date().getFullYear()} Grilo Developer. Todos os
-                direitos reservados.
+                &copy; {new Date().getFullYear()} Grilo Developer. All rights
+                reserved.
               </p>
             </div>
           </ContainerInner>

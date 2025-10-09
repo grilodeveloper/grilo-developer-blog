@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     default: 'Grilo Developer',
   },
   description:
-    'Um blog sobre desenvolvimento web, programação, tecnologia e afins.',
+    'Um espaço onde compartilho um pouco do meu trabalho como programador frontend e também escrevo artigos sobre leituras e aprendizados que me ajudam a evoluir no que faço e no meu dia a dia.',
   alternates: {
     types: {
       'application/rss+xml': `${process.env.NEXT_PUBLIC_SITE_URL}/feed.xml`,
