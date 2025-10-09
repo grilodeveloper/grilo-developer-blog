@@ -116,16 +116,14 @@ function MobileNavigation(
             <CloseIcon className="h-6 w-6 text-zinc-500 dark:text-zinc-400" />
           </PopoverButton>
           <h2 className="text-sm font-medium text-zinc-600 dark:text-zinc-400">
-            Navegação
+            Navigation
           </h2>
         </div>
         <nav className="mt-6">
           <ul className="-my-2 divide-y divide-zinc-100 text-base text-zinc-800 dark:divide-zinc-100/5 dark:text-zinc-300">
-            <MobileNavItem href="/about">Sobre mim</MobileNavItem>
-            <MobileNavItem href="/articles">Artigos</MobileNavItem>
-            <MobileNavItem href="/projects">Projetos</MobileNavItem>
-            {/* <MobileNavItem href="/speaking">Palestras</MobileNavItem> */}
-            {/* <MobileNavItem href="/uses">Usos</MobileNavItem> */}
+            <MobileNavItem href="/about">About</MobileNavItem>
+            <MobileNavItem href="/articles">Article</MobileNavItem>
+            <MobileNavItem href="/projects">Projects</MobileNavItem>
           </ul>
         </nav>
       </PopoverPanel>
@@ -169,8 +167,6 @@ function DesktopNavigation(props: React.ComponentPropsWithoutRef<'nav'>) {
         <NavItem href="/about">Sobre mim</NavItem>
         <NavItem href="/articles">Artigos</NavItem>
         <NavItem href="/projects">Projetos</NavItem>
-        {/* <NavItem href="/speaking">Palestras</NavItem> */}
-        {/* <NavItem href="/uses">Usos</NavItem> */}
       </ul>
     </nav>
   )

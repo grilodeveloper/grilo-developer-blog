@@ -39,15 +39,15 @@ function LinkIcon(props: React.ComponentPropsWithoutRef<'svg'>) {
 }
 
 export const metadata: Metadata = {
-  title: 'Projetos',
-  description: 'Algumas coisas que eu fiz',
+  title: 'Projects',
+  description: 'Some things I have done',
 }
 
 export default function Projects() {
   return (
     <SimpleLayout
-      title="Coisas que eu fiz tentando deixar minha marca no universo."
-      intro="Meus projetos junto a equipe Ybera, onde atuo como desenvolvedor frontend."
+      title="Things I've done trying to leave my mark on the universe."
+      intro="My projects with the Ybera team, where I work as a frontend developer."
     >
       <ul
         role="list"

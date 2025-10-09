@@ -164,7 +164,7 @@ function Resume() {
   let resume: Array<Role> = [
     {
       company: 'Ybera Group',
-      title: 'Desenvolvedor Frontend',
+      title: 'Developer Frontend',
       logo: logoYbera,
       start: '2024',
       end: {
@@ -174,21 +174,21 @@ function Resume() {
     },
     {
       company: 'Pilgrims Consulting',
-      title: 'Analista de Sistemas',
+      title: 'Systems Analyst Intern',
       logo: logoPilgrims,
       start: '2022',
       end: '2023',
     },
     {
       company: 'MFM Group',
-      title: 'Analista de Projetos de TI',
+      title: 'IT Project Analyst Intern',
       logo: logoMFM,
       start: '2020',
       end: '2022',
     },
     {
       company: 'Wipro Technologies',
-      title: 'Assistente de Operações de TI',
+      title: 'IT Operations Assistant',
       logo: logoWipro,
       start: '2017',
       end: '2020',
@@ -199,7 +199,7 @@ function Resume() {
     <div className="rounded-2xl border border-zinc-100 p-6 dark:border-zinc-700/40">
       <h2 className="flex text-sm font-semibold text-zinc-900 dark:text-zinc-100">
         <BriefcaseIcon className="h-6 w-6 flex-none" />
-        <span className="ml-3">Experiência</span>
+        <span className="ml-3">Work</span>
       </h2>
       <ol className="mt-6 space-y-4">
         {resume.map((role, roleIndex) => (
@@ -226,7 +226,7 @@ function Photos() {
   return (
     <div className="mt-16 sm:mt-20">
       <div className="-my-4 flex justify-center gap-5 overflow-hidden py-4 sm:gap-8">
-        {[image1, image2, image3, image4, image5].map((image, imageIndex) => (
+        {[image3, image2, image1, image4, image5].map((image, imageIndex) => (
           <div
             key={image.src}
             className={clsx(
@@ -255,14 +255,12 @@ export default async function Home() {
       <Container className="mt-9">
         <div className="max-w-2xl">
           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl dark:text-zinc-100">
-            Desenvolvedor de Frontend.
+            Frontend Developer.
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            Bem vindo ao meu espaço! Aqui compartilho artigos, dicas e
-            experiências sobre desenvolvimento web, tecnologias frontend e
-            melhores práticas de programação. Meu objetivo é ajudar outros
-            desenvolvedores a crescerem na carreira e se manterem atualizados
-            com as tendências do setor.
+            Welcome to my space! Here I share a bit of my work as a frontend
+            developer. I also write articles about readings and learnings that
+            help me grow in what I do and in my daily life.
           </p>
           <div className="mt-6 flex gap-6">
             <SocialLink
@@ -305,7 +303,6 @@ export default async function Home() {
             ))}
           </div>
           <div className="space-y-10 lg:pl-16 xl:pl-24">
-            {/* <Newsletter /> */}
             <Resume />
           </div>
         </div>
